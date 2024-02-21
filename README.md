@@ -6,22 +6,44 @@ This project aims to classify images of weather into distinct categories using t
 ## Dataset
 The dataset used in this project consists of weather images classified into various weather conditions. This dataset includes common weather categories such as sunny, cloudy, rainy, etc.
 
-## Dependencies
-The project relies on several Python libraries:
-- Data Handling & Visualization: matplotlib, numpy, cv2
-- Deep Learning: tensorflow.keras with specific use of VGG19 and Model
-- Data Preprocessing: ImageDataGenerator, LabelEncoder, LabelBinarizer
-- Model Evaluation: classification_report, confusion_matrix, plot_confusion_matrix
-- Utilities: os, tqdm, shuffle, train_test_split
+## Project Dependencies
+
+### Data Handling & Visualization:
+- matplotlib
+- numpy
+- cv2
+
+### Deep Learning:
+- tensorflow.keras with specific use of VGG19 and Model
+
+### Data Preprocessing:
+- ImageDataGenerator
+- LabelEncoder
+- LabelBinarizer
+
+### Model Evaluation:
+- classification_report
+- confusion_matrix
+- plot_confusion_matrix
+
+### Utilities:
+- os
+- tqdm
+- shuffle
+- train_test_split
 
 ## Methods and Approach
-### Data Preprocessing
+
+### Data Preprocessing:
 Images are loaded and preprocessed to fit the input requirements of the VGG19 model. Label encoding and one-hot encoding are applied to convert category labels into a numerical format.
-### Data Augmentation
+
+### Data Augmentation:
 Implemented to improve model generalization and prevent overfitting.
-### Model
+
+### Model:
 Utilized the pre-trained VGG19 model as a base, adding custom layers to tailor it for the weather classification task.
-### Training
+
+### Training:
 The model is compiled and trained using the Adam optimizer and categorical crossentropy loss function, with accuracy as the metric.
 
 ## Training and Validation Results

@@ -4,7 +4,7 @@
 This project aims to classify images of weather into distinct categories using the VGG19 deep learning model. Below are the key components and findings of the project:
 
 ## Dataset
-The dataset used in this project consists of weather images classified into various weather conditions. Specific details about the dataset source and size were not provided, but it likely includes common weather categories such as sunny, cloudy, rainy, etc.
+The dataset used in this project consists of weather images classified into various weather conditions. This dataset includes common weather categories such as sunny, cloudy, rainy, etc.
 
 ## Dependencies
 The project relies on several Python libraries:
